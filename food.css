@@ -84,3 +84,43 @@ transition: 0.3s;
     height: 80vh;
     width: 100%;
 }
+ input{
+   outline: none;
+   padding: 16px;
+    border-radius: 5px;
+    height: 10px;
+ }
+ textarea{
+    outline: none;
+    padding: 16px;
+     border-radius: 5px;
+     height: 10px;
+ }
+    @media (max-width: 600px) {
+    .apple {
+        background-image:linear-gradient(rgba(0,0,0,0.2) ,rgba(0,0,0,0.2)),url(applebaby.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+       
+    }
+}
+@media (max-width: 600px) {
+    .main {
+    background-image: url(backgroun.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+       
+    }
+    .main h1{
+        font-size: 3rem;
+        font-family: 700;
+        text-transform: capitalize;
+       padding-top: 30px;
+       margin-right: 20px;
+}
+}
